@@ -1,4 +1,4 @@
-rednet.open("top") 
+peripheral.find("modem", rednet.open)
 
 print("digite o id do servidor:")
 local serverID = tonumber(read())

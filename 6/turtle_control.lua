@@ -1,4 +1,4 @@
-rednet.open("top")
+peripheral.find("modem", rednet.open)
 
 print("controle remoto da tartaruga")
 print("qual o id da tartaruga?")

@@ -1,4 +1,4 @@
-rednet.open("top") 
+peripheral.find("modem", rednet.open)
 
 local function uploadFile(serverID, filePath)
     if not fs.exists(filePath) then

@@ -1,4 +1,4 @@
-rednet.open("right")
+peripheral.find("modem", rednet.open)
 
 print("servidor da turtle rodando... aguardando comandos")
 
